@@ -1,0 +1,67 @@
+/* Palette Coolors
+023C40 - dark teal
+C3979F - muted rose
+0AD3FF - bright blue
+78FFD6 - mint
+E1FAF9 - very light cyan
+*/
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #E1FAF9;
+  color: #023C40;
+}
+
+header {
+  background-color: #023C40;
+  color: #E1FAF9;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  font-size: 24px;
+}
+
+#reset-btn {
+  background-color: #0AD3FF;
+  color: #023C40;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  transition: background-color 0.3s;
+}
+
+#reset-btn:hover {
+  background-color: #78FFD6;
+}
+
+#map {
+  height: calc(100vh - 60px);
+  width: 100%;
+}
+
+/* Custom popup styling */
+.leaflet-popup-content-wrapper {
+  background: #78FFD6;
+  color: #023C40;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 12px;
+}
+
+.leaflet-popup-tip {
+  background: #78FFD6;
+}
+
+img.leaflet-marker-icon {
+  box-shadow:  4px 8px 13px rgba(0, 0, 0, .5);
+}
