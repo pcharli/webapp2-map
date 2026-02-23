@@ -3,6 +3,10 @@ import { getDeviceLocation } from "./geo.js"
 import { travaux } from "./travaux.js"
 //import { laLouviere } from "./la-louviere.js"
 import { brussel } from "./brussel.js"  
+import { initInstall } from './install.js';
+
+// Lancement de la logique d'installation
+initInstall();
 
 async function init() {
   const location = await getDeviceLocation()

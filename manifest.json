@@ -6,7 +6,8 @@
     {
       "src": "icons/favicon-96x96.png",
       "type": "image/png",
-      "sizes": "96x96"
+      "sizes": "96x96",
+      "purpose": "any"
     },
     {
       "src": "icons/favicon-256x256.png",
